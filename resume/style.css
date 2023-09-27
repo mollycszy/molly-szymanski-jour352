@@ -8,8 +8,8 @@
 
 }
 <!---default type --->
-body{
-    font: arial;
+body {
+    font: arial, helvetica, sans-serif;
     font-weight: 400; 
     color: darkslategray;
     font-size: 1em ; 
@@ -17,20 +17,18 @@ body{
 
 #name {
 font-size: 3em;
-font: arial;
 font-weight: 400;
 text-transform: uppercase;
 text-align: center;
 color: #33485e;
-border-bottom: 1px #33485e;
 width: 60%;
 min-width: 300px;
 margin: 0 auto;
+border-bottom: 1px #33485e;
 }
 
 #title {
     font-size: 1.5em;
-    font: arial;
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
@@ -38,7 +36,6 @@ margin: 0 auto;
  }
 .sectionheader {
     font-size: 1.5em;
-    font: arial;
     font-weight: 400;
     text-transform: uppercase;
     background-color: #33485e;
@@ -52,7 +49,6 @@ margin: 0 auto;
 }
 .dates {
     font-size: 1em;
-    font: arial;
     font-weight: 400;
     text-transform: uppercase;
     color: darkslategray;
@@ -63,14 +59,13 @@ margin: 0 auto;
 }
 .jobtitle{
     font-size: 1.5em;
-    font: arial;
+    font: helvetica;
     font-weight: 400;
     font-style: italic;
     color: darkslategray;
 }
 .description{
     font-size: 1em;
-    font: arial;
     font-weight: 400;
     color: darkslategray;
     margin-top: 10px;
