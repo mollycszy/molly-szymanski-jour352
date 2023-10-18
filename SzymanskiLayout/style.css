@@ -1,0 +1,62 @@
+#content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.h1{
+ font-family: Helvetica, sans-serif;
+}
+
+#byline{
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.p{
+    font-family: 'Georgia', serif;
+    font-size: 13px;
+}
+.caption {
+    font-family: 'Georgia', serif;
+    font-size: 12px;
+    font-style: italic;
+}
+#pullquote {
+    font-style: italic;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #255f2f;
+
+}
+#pqby {
+    font-size: 14px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    color: #255f2f;
+}
+#readmore {
+    font-size: 18px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #255f2f;
+}
+a:link {
+    color: #255f2f;
+    background-color: transparent;
+  }
+  
+  a:visited {
+    color: #255f2f;
+    background-color: transparent;
+    
+  }
+  

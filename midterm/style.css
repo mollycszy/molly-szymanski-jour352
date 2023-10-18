@@ -1,0 +1,72 @@
+#content {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+
+}
+#hed{
+font-size: 60px;
+text-align: center;
+font-family: 'Migra Extrabold', Georgia, serif;
+
+}
+#subheader{
+font-size: 22px;
+text-align: center;
+font-family: 'Migra Extralight', Georgia, serif; 
+font-style: italic;
+}
+#byline{
+font-size: 14px;
+text-align: left;
+font-family:'Helvetica', sans-serif;
+text-transform: uppercase;
+}
+#published{
+    font-size: 14px;
+    text-align: right;
+    font-family:'Helvetica', sans-serif;
+    text-transform: uppercase;
+    font-style:bold; 
+}
+.p{
+font-size: 18px;
+text-align: left;
+font-family:Georgia, 'Times New Roman', Times, serif
+}
+.subhead{
+font-size: 20px;
+text-align: left;
+font-family: 'Migra Extrabold', Georgia, 'Times New Roman', Times, serif
+}
+.captions{
+font-size: 11px;
+text-align: left;
+font-family:'Helvetica', sans-serif;
+text-transform: uppercase;
+}
+.credits{
+    font-size: 14px;
+    text-align: center;
+    font-family:'Helvetica', sans-serif;
+    text-transform: uppercase;
+}
+#blockquote{
+    font-size: 36px;
+    text-align: center;
+    font-family:'Migra Extrabold', Georgia, 'Times New Roman', Times, serif;
+}
+#readmore{
+    font-size: 22px;
+text-align: center;
+font-family: 'Migra Extralight', Georgia, serif; 
+}
+#links{
+    font-size: 14px;
+    text-align: center;
+    font-family:'Migra Extrabold', Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+a:visited{
+    color: black;
+}
