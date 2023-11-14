@@ -1,0 +1,117 @@
+.container{
+    margin: auto;
+}
+.hed{
+text-align: center;
+font-family: alfabet, sans-serif;
+font-weight: 800;
+font-style: normal;
+font-size: 5em;
+}
+.byline{
+text-align: center;
+font-family: alfabet, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5em;
+text-transform: uppercase;
+letter-spacing: .2em;
+}
+.subhead{
+    text-align: center;
+    font-family: alfabet, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1em;
+}
+img{
+    width: 100%;
+    max-width: 1080px;
+    display: block;
+    margin: auto;
+}
+.caption{
+    font-family: "georgiapro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:.75em;
+    text-align: left;
+}
+.chapterhed{
+    font-family: alfabet, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.5em;
+}
+.content{
+    font-family: "georgiapro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.row {
+ text-align: center;
+ font-family: alfabet, sans-serif;
+ font-weight: 400;
+ font-style: italic;
+ font-size: 1em;
+}
+.footer{
+background-color: #111D13;
+text-align: center;
+font-family: alfabet, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1em;
+color: #ffffff;
+}
+.container-fluid{
+    background-color: #111D13;
+}
+.nav-link{
+    color: #ffffff;
+}
+
+.timeline {
+    position: relative;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-left: 2px solid #ccc;
+}
+
+.timeline-item {
+    position: relative;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.timeline-item .text-input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -20px; 
+    height: 2px; 
+    width: 30%; 
+    background-color: #ccc;
+}
+.timeline-date{
+    font-family: alfabet, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 2em;
+    font-color: #000000
+}
+.timeline-bands{
+    font-family: alfabet, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1em;
+    font-color: #000000
+}
