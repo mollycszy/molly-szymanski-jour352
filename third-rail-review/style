@@ -1,0 +1,88 @@
+.container{
+    margin: auto;
+}
+.hed{
+text-align: center;
+font-family: alfabet, sans-serif;
+font-weight: 800;
+font-style: normal;
+font-size: 5em;
+}
+.byline{
+text-align: center;
+font-family: alfabet, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5em;
+text-transform: uppercase;
+letter-spacing: .2em;
+}
+.subhead{
+    text-align: center;
+    font-family: alfabet, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1em;
+}
+img{
+    width: 100%;
+    max-width: 1080px;
+    display: block;
+    margin: auto;
+}
+.caption{
+    font-family: "georgiapro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:.75em;
+}
+.chapterhed{
+    font-family: alfabet, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.5em;
+}
+.content{
+    font-family: "georgiapro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.row {
+ text-align: center;
+ font-family: alfabet, sans-serif;
+ font-weight: 400;
+ font-style: italic;
+ font-size: 1em;
+}
+.footer{
+background-color: #111D13;
+text-align: center;
+font-family: alfabet, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1em;
+color: #ffffff;
+}
+.container-fluid{
+    background-color: #111D13;
+}
+.nav-link{
+    color: #ffffff;
+}
+
+#header {
+    background-image: url(header-dollgrith.png) no-repeat center center fixed;;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+#topper{
+    position: sticky;
+    top: 20px; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}

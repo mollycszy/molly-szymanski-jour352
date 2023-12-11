@@ -1,0 +1,191 @@
+
+body{
+background-color: #000000;
+}
+.container{
+    margin: auto;
+    padding:0;
+}
+.byline{
+position:sticky;
+text-align:center;
+font-family:"montserrat", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1.5em;
+text-transform: uppercase;
+letter-spacing: .2em;
+color: #FFFFFF;
+transform: translateY(-1700%);
+
+}
+.subhead{
+    text-align: center;
+    font-family:"montserrat", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1em;
+    color: #FFFFFF;
+}
+img{
+    width: 100%;
+    max-width: 1080px;
+    display: block;
+    margin: auto;
+}
+.caption{
+    font-family:"montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:.75em;
+    color: #FFFFFF;
+}
+.bandhed{
+    font-family: "dirty-bakers-dozen-scorch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5em;
+    color: #c71e1d;
+}
+.datehed{
+    font-family: "montserrat", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 1.5em;
+    color: #FFFFFF;
+}
+.content{
+    font-family: "montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.row {
+ text-align: center;
+ font-family: "montserrat", sans-serif;
+ font-weight: 400;
+ font-style: italic;
+ font-size: 1em;
+ color: #FFFFFF;
+}
+.footer{
+background-color: #6F1A07;
+text-align: center;
+font-family:"montserrat", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 1em;
+color: #ffffff;
+}
+.container-fluid{
+    background-color: #111D13;
+}
+.nav-link{
+    color: #ffffff;
+}
+#header {
+    background: url('header-dollgrith.png') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+#hedandfriends{
+    position: sticky;
+    top: 0;
+}
+#logo{
+    position: sticky;
+    transform: translateY(-120%)!important;
+    z-index: 2;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+
+   
+}
+
+.topper {
+    position:relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.leftquotemark{
+    font-family: "dirty-bakers-dozen-scorch", sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-size:1.5em; 
+    color: #c71e1d;
+}
+.rightquotemark {
+    font-family: "dirty-bakers-dozen-scorch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:1.5em; 
+    color: #c71e1d;
+
+}
+.pullquote{
+    font-family: "montserrat", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 1.5em;
+    color:#ffffff;
+    text-align: center;
+}
+.pullattribution{
+    font-family: "dirty-bakers-dozen-scorch", sans-serif;
+font-weight: 400;
+font-style: normal;
+    font-size:.75em; 
+    margin-top:-200px ;
+    padding-right: 75px;
+    text-align: right;
+    line-height: 100%;
+    color:#ffffff;
+}
+.timeline-bands{
+    font-family:"montserrat", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size:.75em; 
+    color:#c71e1d;
+}
+.timeline-date, a{
+    font-family: "dirty-bakers-dozen-scorch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:1em; 
+    color:#ffffff; 
+}
+.timeline {
+    position: sticky;
+    top: 10px;
+    max-width: 600px;
+    padding: 20px;
+    border-left: 2px solid #ccc;
+    
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.timeline-item .text-input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -20px; 
+    height: 2px; 
+    width: 25%; 
+    background-color: #ccc;
+}
